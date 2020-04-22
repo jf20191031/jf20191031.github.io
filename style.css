@@ -1,0 +1,78 @@
+header {
+  font-family: 'Abril Fatface', cursive;
+/*   color: #222 grey; */
+  height: 300px;
+  width: 800px;
+  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png");
+/*   "https://mdn.mozillademos.org/files/7693/catfront.png" */
+/*   "http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png" */
+  }
+
+header h1, header h3 {
+  margin: 0px;
+}
+
+img {
+  width: 700px;
+  height: 500px;
+}
+
+ul {
+  list-style-type: square;
+  font-size: 15px;
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222 grey;
+  text-align: left;
+}
+
+.personal-interests {
+ border-top: solid;
+ padding-top: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+h3 + h1 {
+  margin-top: -10px;
+}
+h3 + h4 {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-top: -15px;
+}
+
+blockquote {
+  background: grey;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  padding: 20px;
+}
+
+blockquote::before {
+  content: '”';
+  position: relative;
+  top: -50px;
+  left: -20px;
+  font-size: 120px;
+  paddin: 0px;
+  /* then the styling */
+}
+
+.Anakin-says {
+  margin-top: -150px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.in-the-header {
+  position: absolute;
+  left: 200px;
+  top: 230px;
+}
